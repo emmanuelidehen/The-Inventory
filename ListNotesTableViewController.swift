@@ -47,22 +47,22 @@ class ListNotesTableViewController: UIViewController {
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
-//    {
-//        // Get the new view controller using segue.destination.
-//        // 1
-//        guard let identifier = segue.identifier else { return }
-//
-//        // Pass the selected object to the new view controller.
-//
-//
-//        // 2
-//        if identifier == "displayNote"
-//        {
-//            print("Transitioning to the Display Note View Controller")
-//        }
-//
-//    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        // Get the new view controller using segue.destination.
+        // 1
+        guard let identifier = segue.identifier else { return }
+
+        // Pass the selected object to the new view controller.
+
+
+        // 2
+        if identifier == "displayNote"
+        {
+            print("Transitioning to the Display Note View Controller")
+        }
+
+    }
     
 
 }
