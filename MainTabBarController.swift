@@ -18,7 +18,7 @@ class MainTabBarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         photoHelper.completionHandler = { image in
-            print("handle image")
+           PostService.create(for: image)
         }
         // 1
         delegate = self as? UITabBarControllerDelegate
@@ -62,7 +62,7 @@ extension MainTabBarController: UITabBarControllerDelegate {
     func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewController: UIViewController) -> Bool {
         if viewController.tabBarItem.tag == 1 {
             // present photo taking action sheet
-           // print("take photo")
+           //print("take photo")
             photoHelper.presentActionSheet(from: self)
             
             return false
