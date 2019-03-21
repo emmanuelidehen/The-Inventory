@@ -132,7 +132,7 @@
         <!--Friend-->
         <scene sceneID="6la-Kf-eN3">
             <objects>
-                <viewController id="SqW-pe-Exa" customClass="FindFriendsViewController" customModule="Small_Talk" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="SqW-pe-Exa" customClass="ViewController" customModule="Small_Talk" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LQH-6x-35L">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
