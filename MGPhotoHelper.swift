@@ -29,6 +29,12 @@ class MGPhotoHelper: NSObject {
         // ...
         
         if UIImagePickerController.isSourceTypeAvailable(.camera) {
+            
+            
+            
+            
+            
+            
             let capturePhotoAction = UIAlertAction(title: "Take Photo", style: .default, handler: { [unowned self] action in
                 self.presentImagePickerController(with: .camera, from: viewController)
             })

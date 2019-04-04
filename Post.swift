@@ -38,7 +38,7 @@ class Post {
         // create new post in database
         
         // 1
-        let currentUser = (Any).self
+        _ = (Any).self//UserService.loginUser//(
         // 2
         let post = Post(imageURL: urlString, imageHeight: aspectHeight)
         // 3
